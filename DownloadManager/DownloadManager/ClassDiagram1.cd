@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DownloadManager.download">
+    <Position X="4.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAgAAQAAAAAAAAAAAEAEAAMEAAkAAAAAgAAAAI=</HashCode>
+      <FileName>download.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DownloadManager.httpdownload">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>httpdownload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DownloadManager.sftpdownload">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <InheritanceLine Type="DownloadManager.download" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.125" Y="4.363" />
+        <Point X="6.125" Y="4.76" />
+        <Point X="7.375" Y="4.76" />
+        <Point X="7.375" Y="5.557" />
+        <Point X="7" Y="5.557" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sftpdownload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DownloadManager.ftpdownload">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ftpdownload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

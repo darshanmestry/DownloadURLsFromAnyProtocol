@@ -1,0 +1,7 @@
+C:\Users\dmestry\Documents\My Projects\DownloadManager\DownloadManager\bin\Debug\DownloadManager.exe.config
+C:\Users\dmestry\Documents\My Projects\DownloadManager\DownloadManager\bin\Debug\DownloadManager.exe
+C:\Users\dmestry\Documents\My Projects\DownloadManager\DownloadManager\bin\Debug\DownloadManager.pdb
+C:\Users\dmestry\Documents\My Projects\DownloadManager\DownloadManager\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\dmestry\Documents\My Projects\DownloadManager\DownloadManager\obj\Debug\DownloadManager.exe
+C:\Users\dmestry\Documents\My Projects\DownloadManager\DownloadManager\obj\Debug\DownloadManager.pdb
+C:\Users\dmestry\Documents\My Projects\DownloadManager\DownloadManager\obj\Debug\DownloadManager.csprojResolveAssemblyReference.cache
