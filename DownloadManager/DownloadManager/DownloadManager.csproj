@@ -45,15 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="download.cs" />
-    <Compile Include="fileLogger.cs" />
-    <Compile Include="ftpdownload.cs" />
-    <Compile Include="httpdownload.cs" />
+    <Compile Include="AbstractDownloadClass\download.cs" />
+    <Compile Include="Logger\fileLogger.cs" />
+    <Compile Include="FtpDownload\ftpdownload.cs" />
+    <Compile Include="HttpDownload\httpdownload.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sftpdownload.cs" />
-    <Compile Include="UnitTests\TestDownloadClass.cs" />
-    <Compile Include="UnitTests\TestMainProgram.cs" />
+    <Compile Include="SftpDownload\sftpdownload.cs" />
+    <Compile Include="Testcases\IntegrationTests\IntegrationTests.cs" />
+    <Compile Include="Testcases\UnitTests\TestDownloadClass.cs" />
+    <Compile Include="Testcases\UnitTests\TestMainProgram.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

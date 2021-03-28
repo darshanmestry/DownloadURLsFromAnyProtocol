@@ -121,9 +121,13 @@ namespace DownloadManager
         }
         #endregion
 
+
+    
+
         public static void Main(string[] args)
         {
-           
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
             SetConsoleCtrlHandler(new HandlerRoutine(ConsoleCtrlCheck), true);
 
             //if(!isclosing)
@@ -207,6 +211,10 @@ namespace DownloadManager
 
             fileLogger.Instance().WriteToLog("   ## Ending Run", PARENT_THREAD);
             obj.cleanup(DownloadPath);
+
+            watch.Stop();
+
+            Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
             Console.WriteLine("Done.");
         }
 
